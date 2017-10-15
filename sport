@@ -8,6 +8,56 @@ and open the template in the editor.
     <head>
         <title>LacrossSport.com</title>
         <meta charset="UTF-8">
+        <link href="Accueil.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <nav>
+        <ul class="topnav">
+           <li><a href="Accueil.html">Accueil</a></li>
+           <li><a href="Description.html">Descriptions</a></li>
+         <li><a href="Images.html">Images</a></li>
+        </ul>
+  </nav>
+  
+        <div class="conteneur"></div>    
+            <header><center><h1>Mon site WEB</h1></center>
+        <div id="content"></div>
+        <center><h2>La crosse</h2></center>
+        
+  </header>
+        <article>
+        <div>
+            <center><h3>Voici le site Web que j'ai créé!!!</h3></center>
+    </div>
+            <div class="accueil">
+                <iframe width="700" height="400" src="https://www.youtube.com/embed/8y88H2DFmFw" frameborder="0" allowfullscreen></iframe>
+</div>
+       
+            </article>
+        <div>
+            <p class="footer">@Ce site a été créé par Olivier St-Onge</p>
+            
+  </div>
+        <footer>
+            <center><h2>Pour me contacter:</h2>
+                    <p>Numéro:450-987-6543<br>
+                    Adresse courriel: stooli@hotmail.com<br>
+                    Gmail: olisto.1@gmail.com<br></p>
+             </center>
+        </footer>
+  </body>
+</html>
+        <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>LacrossSport.com</title>
+        <meta charset="UTF-8">
         <link href="Description.css" rel="stylesheet" type="text/css"/>
        
 
@@ -40,3 +90,84 @@ and open the template in the editor.
     </article>
 </div>       
 </html>
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <title>LacrossSport.com</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="Images.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <nav>
+ <ul class="topnav">
+           <li><a href="Accueil.html">Accueil</a></li>
+           <li><a href="Description.html">Descriptions</a></li>
+         <li><a href="Images.html">Images</a></li>
+         
+ </ul>
+        </nav>
+        
+<div class="gallery">
+  <a target="_blank" href="box.jpg">
+      <img src="box.jpg" alt="terrain" width="600" height="114" >
+  </a>
+  <div class="desc">Cliquer pour agrandir</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="kent.jpg">
+      <img src="kent.jpg" alt="joueur" width="600" height="114">
+  </a>
+ <div class="desc">Cliquer pour agrandir</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="kid.jpg">
+    <img src="kid.jpg" alt="meme" width="600" height="114">
+  </a>
+  <div class="desc">Cliquer pour agrandir</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="lacrosse.jpg">
+    <img src="lacrosse.jpg" alt="joueur" width="600" height="114">
+  </a>
+  <div class="desc">Cliquer pour agrandir</div>
+</div>
+             <div class="gallery">
+  <a target="_blank" href="ranked.jpg">
+    <img src="ranked.jpg" alt="joueur" width="600" height="114">
+  </a>
+  <div class="desc">Cliquer pour agrandir</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="1876.jpg">
+    <img src="1876.jpg" alt="first team" width="600" height="114">
+  </a>
+  <div class="desc">Cliquer pour agrandir</div>
+</div>
+             <div class="video">
+       <video width="320" height="240" controls>
+            <source src="best-lacrosse-goals-2017.mp4" type="video/mp4">
+            Your browser does not support the <code>video</code> tag.
+        </video>
+       </div>
+        
+         <div class="video">   
+              <video width="320" height="240" controls>
+                 <source src="best-of-lacrosse.mp4" type="video/mp4">
+                 Your browser does not support the <code>video</code> tag.
+             </video>
+        </div>      
+    </body>
+         </html>
